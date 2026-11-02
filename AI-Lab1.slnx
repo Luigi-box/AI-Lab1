@@ -52,8 +52,8 @@
   <Project Path="Unity.AppUI.Redux.Editor.csproj" />
   <Project Path="Unity.StarterAssets.csproj" />
   <Project Path="Unity.AppUI.Undo.csproj" />
-  <Project Path="Unity.Behavior.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.Behavior.Editor.csproj" />
   <Project Path="Unity.Behavior.Serialization.Editor.csproj" />
   <Project Path="Unity.InputSystem.DocCodeSamples.csproj" />
   <Project Path="Unity.AppUI.InternalAPIBridge.csproj" />
