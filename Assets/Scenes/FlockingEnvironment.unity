@@ -2665,6 +2665,8 @@ GameObject:
   - component: {fileID: 1998420915}
   - component: {fileID: 1998420914}
   - component: {fileID: 1998420913}
+  - component: {fileID: 1998420918}
+  - component: {fileID: 1998420917}
   m_Layer: 0
   m_Name: Fleer
   m_TagString: Untagged
@@ -2758,12 +2760,63 @@ Transform:
   m_GameObject: {fileID: 1998420912}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 26.2, z: 64.1}
+  m_LocalPosition: {x: 0.7, y: 1.033, z: -13.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998420917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998420912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
+  m_Graph: {fileID: 2202482399079510164, guid: cd45e1cac608e2e478a4a60b003db2d7, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 3000445268483375958
+  m_OriginalGraph: {fileID: 2202482399079510164, guid: cd45e1cac608e2e478a4a60b003db2d7, type: 2}
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3000445268483375958
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 1998420912}
+--- !u!195 &1998420918
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998420912}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2023937655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2794,7 +2847,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023937655}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef6fa4c7c95d266489a28466ecc92337, type: 3}
   m_Name: 
@@ -2811,7 +2864,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023937655}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b6fae7b6352c154097c35d503e42e12, type: 3}
   m_Name: 
@@ -2838,8 +2891,6 @@ MonoBehaviour:
   m_BlackboardVariableOverridesList:
   - rid: 3000445228558843960
   - rid: 3000445228558843961
-  - rid: 3000445228558844260
-  - rid: 3000445228558844723
   - rid: 3000445266761875799
   m_OriginalGraph: {fileID: -1188988209933432429, guid: a53672d9f7b36fb4f9b4ce05db376111, type: 2}
   m_IsInitialised: 0
@@ -2862,23 +2913,7 @@ MonoBehaviour:
           m_Value0: 4330155191793897651
           m_Value1: 10297456336624160365
         Name: Target
-        m_Value: {fileID: 1998420912}
-    - rid: 3000445228558844260
-      type: {class: 'BlackboardVariable`1[[RangeDetector, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 3844170387976582014
-          m_Value1: 11436852002638069852
-        Name: New Range Detector
-        m_Value: {fileID: 2023937656}
-    - rid: 3000445228558844723
-      type: {class: 'BlackboardVariable`1[[LineOfSightDetector, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 14951943762234853400
-          m_Value1: 16643650432247808215
-        Name: New Line Of Sight Detector
-        m_Value: {fileID: 2023937657}
+        m_Value: {fileID: 445470068}
     - rid: 3000445266761875799
       type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
