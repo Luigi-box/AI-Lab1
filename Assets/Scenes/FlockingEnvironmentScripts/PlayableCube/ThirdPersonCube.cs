@@ -41,6 +41,9 @@ public class ThirdPersonCube : MonoBehaviour
     [Tooltip("For locking the camera position on all axis")]
     public bool LockCameraPosition = false;
 
+    public float sensitivityPitch = 1.0f;
+    public float sensitivityYaw = 3.0f;
+
     // cinemachine
     private float _cinemachineTargetYaw;
     private float _cinemachineTargetPitch;
@@ -121,8 +124,8 @@ public class ThirdPersonCube : MonoBehaviour
             //Don't multiply mouse input by Time.deltaTime;
             float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
 
-            _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier;
-            _cinemachineTargetPitch += _input.look.y * deltaTimeMultiplier;
+            _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier * sensitivityYaw;
+            _cinemachineTargetPitch += _input.look.y * deltaTimeMultiplier * sensitivityPitch;
         }
 
         // clamp our rotations so our values are limited 360 degrees
