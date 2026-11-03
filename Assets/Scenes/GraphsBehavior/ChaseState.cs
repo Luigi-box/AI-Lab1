@@ -2,10 +2,9 @@ using System;
 using Unity.Behavior;
 
 [BlackboardEnum]
-public enum State
+public enum ChaseState
 {
 	Patrol,
 	Chase,
-
 	Idle
 }
