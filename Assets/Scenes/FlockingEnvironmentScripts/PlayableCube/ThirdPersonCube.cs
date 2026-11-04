@@ -211,7 +211,7 @@ public class ThirdPersonCube : MonoBehaviour
         }
         else
         {
-            _verticalVelocity = 0.0f;
+            _verticalVelocity = -8.9f;
         }
     }
     private static float ClampAngle(float lfAngle, float lfMin, float lfMax)

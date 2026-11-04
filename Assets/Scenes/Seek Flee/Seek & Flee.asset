@@ -3821,25 +3821,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c02bb70996b49eba31d0c206e28da24, type: 3}
   m_Name: Seek & Flee Blackboard
   m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.RuntimeBlackboardAsset
-  VersionTimestamp: 639294127571784221
+  VersionTimestamp: 639293387756479052
   AssetID:
+    m_Hash128:
+      'bytes[0]': 165
+      'bytes[1]': 54
+      'bytes[2]': 114
+      'bytes[3]': 217
+      'bytes[4]': 247
+      'bytes[5]': 179
+      'bytes[6]': 111
+      'bytes[7]': 180
+      'bytes[8]': 249
+      'bytes[9]': 180
+      'bytes[10]': 206
+      'bytes[11]': 5
+      'bytes[12]': 219
+      'bytes[13]': 55
+      'bytes[14]': 97
+      'bytes[15]': 17
     m_Value0: 13001808526328346277
     m_Value1: 1252343585220506873
   m_Blackboard:
     m_Variables:
     - rid: 3000445228558843912
     - rid: 3000445228558843944
-    - rid: 3000445293035258488
     - rid: 3000445228558844506
-    - rid: 3000445293035257985
+    - rid: 3000445266761875641
+    - rid: 3000445272113283714
   m_SharedBlackboardVariableGuids: []
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 3000445228558843912
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
+          m_Hash128:
+            'bytes[0]': 1
+            'bytes[1]': 0
+            'bytes[2]': 0
+            'bytes[3]': 0
+            'bytes[4]': 0
+            'bytes[5]': 0
+            'bytes[6]': 0
+            'bytes[7]': 0
+            'bytes[8]': 0
+            'bytes[9]': 0
+            'bytes[10]': 0
+            'bytes[11]': 0
+            'bytes[12]': 0
+            'bytes[13]': 0
+            'bytes[14]': 0
+            'bytes[15]': 0
           m_Value0: 1
           m_Value1: 0
         Name: Self
@@ -3848,6 +3884,23 @@ MonoBehaviour:
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
+          m_Hash128:
+            'bytes[0]': 179
+            'bytes[1]': 80
+            'bytes[2]': 48
+            'bytes[3]': 109
+            'bytes[4]': 52
+            'bytes[5]': 205
+            'bytes[6]': 23
+            'bytes[7]': 60
+            'bytes[8]': 109
+            'bytes[9]': 14
+            'bytes[10]': 148
+            'bytes[11]': 218
+            'bytes[12]': 250
+            'bytes[13]': 233
+            'bytes[14]': 231
+            'bytes[15]': 142
           m_Value0: 4330155191793897651
           m_Value1: 10297456336624160365
         Name: Target
@@ -3856,23 +3909,74 @@ MonoBehaviour:
       type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
+          m_Hash128:
+            'bytes[0]': 122
+            'bytes[1]': 38
+            'bytes[2]': 236
+            'bytes[3]': 238
+            'bytes[4]': 177
+            'bytes[5]': 103
+            'bytes[6]': 99
+            'bytes[7]': 201
+            'bytes[8]': 161
+            'bytes[9]': 46
+            'bytes[10]': 245
+            'bytes[11]': 8
+            'bytes[12]': 149
+            'bytes[13]': 38
+            'bytes[14]': 16
+            'bytes[15]': 53
           m_Value0: 14511556438233196154
           m_Value1: 3823598505179819681
         Name: TargetDetected
         m_Value: 0
-    - rid: 3000445293035257985
-      type: {class: 'BlackboardVariable`1[[State, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+    - rid: 3000445266761875641
+      type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Value0: 9549465674094031977
-          m_Value1: 6643715024081996788
-        Name: New State
+          m_Hash128:
+            'bytes[0]': 59
+            'bytes[1]': 166
+            'bytes[2]': 168
+            'bytes[3]': 55
+            'bytes[4]': 51
+            'bytes[5]': 232
+            'bytes[6]': 30
+            'bytes[7]': 10
+            'bytes[8]': 108
+            'bytes[9]': 115
+            'bytes[10]': 103
+            'bytes[11]': 141
+            'bytes[12]': 55
+            'bytes[13]': 177
+            'bytes[14]': 201
+            'bytes[15]': 11
+          m_Value0: 729275496355374651
+          m_Value1: 849404856889733996
+        Name: Waypoints Seeker
+        m_Value: []
+    - rid: 3000445272113283714
+      type: {class: 'BlackboardVariable`1[[ChaseState, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Hash128:
+            'bytes[0]': 199
+            'bytes[1]': 124
+            'bytes[2]': 242
+            'bytes[3]': 210
+            'bytes[4]': 149
+            'bytes[5]': 116
+            'bytes[6]': 57
+            'bytes[7]': 136
+            'bytes[8]': 21
+            'bytes[9]': 38
+            'bytes[10]': 57
+            'bytes[11]': 253
+            'bytes[12]': 149
+            'bytes[13]': 98
+            'bytes[14]': 205
+            'bytes[15]': 248
+          m_Value0: 9816005049668762823
+          m_Value1: 17928094087969842709
+        Name: New ChaseState
         m_Value: 0
-    - rid: 3000445293035258488
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 13023187733677836022
-          m_Value1: 2895475477881820768
-        Name: RunToPosition
-        m_Value: {fileID: 0}
