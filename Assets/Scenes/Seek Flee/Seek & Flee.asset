@@ -46,7 +46,7 @@ MonoBehaviour:
         BlackboardGroupReferences: []
         Root:
           rid: 3000445293248643354
-        m_VersionTimestamp: 639294129962156096
+        m_VersionTimestamp: 639294808904996648
     - rid: 3000445228558843905
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -1047,7 +1047,7 @@ MonoBehaviour:
   - rid: 3000445293151387953
   - rid: 3000445293151388207
   - rid: 3000445293151388288
-  m_VersionTimestamp: 639294129962156096
+  m_VersionTimestamp: 639294808904996648
   m_SerializedVersion: 3
   m_DebugInfo: {fileID: -6356531630312549390}
   m_RuntimeGraph: {fileID: -1188988209933432429}
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     - rid: 3000445228558843910
       type: {class: StartNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 741.64813, y: -244.11142}
+        Position: {x: 741.64813, y: -367.08215}
         ID:
           m_Value0: 9954422308640889686
           m_Value1: 5621257989022785303
@@ -1342,7 +1342,7 @@ MonoBehaviour:
     - rid: 3000445228558843913
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 591.6446, y: 334.98547}
+        Position: {x: 599.64813, y: 288.00507}
         ID:
           m_Value0: 7366115762999427451
           m_Value1: 10790907487070506583
@@ -1569,7 +1569,7 @@ MonoBehaviour:
     - rid: 3000445267740983468
       type: {class: CompositeNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 735.64484, y: 134.9855}
+        Position: {x: 725.14813, y: -42.082153}
         ID:
           m_Value0: 15567787693340788398
           m_Value1: 15874403124854414352
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     - rid: 3000445267740983469
       type: {class: SetValueNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 886.64496, y: 224.98538}
+        Position: {x: 876.14813, y: 175.91785}
         ID:
           m_Value0: 4282267485475925470
           m_Value1: 17282554314579030778
@@ -1647,7 +1647,7 @@ MonoBehaviour:
     - rid: 3000445267740983493
       type: {class: AbortNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 591.6446, y: 224.98538}
+        Position: {x: 599.64813, y: 175.91785}
         ID:
           m_Value0: 1852192574526790559
           m_Value1: 4980475790069561499
@@ -1765,7 +1765,7 @@ MonoBehaviour:
     - rid: 3000445267740983899
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 216.09564, y: 34.323177}
+        Position: {x: 188.64813, y: -42.082153}
         ID:
           m_Value0: 5195183709483200575
           m_Value1: 9084961787774887659
@@ -1852,7 +1852,7 @@ MonoBehaviour:
     - rid: 3000445268483375207
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: -917.17584, y: -0.5531479}
+        Position: {x: -863.60693, y: -42.082153}
         ID:
           m_Value0: 9334817057571781498
           m_Value1: 5193700370711060013
@@ -1868,7 +1868,7 @@ MonoBehaviour:
     - rid: 3000445268483375208
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: -666.17596, y: -0.5531479}
+        Position: {x: -612.60693, y: -42.082153}
         ID:
           m_Value0: 10046121418601942687
           m_Value1: 15965771356805280701
@@ -1884,7 +1884,7 @@ MonoBehaviour:
     - rid: 3000445268483375209
       type: {class: BranchingConditionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -791.6759, y: -110.55315}
+        Position: {x: -738.10693, y: -152.08215}
         ID:
           m_Value0: 9931945593947203552
           m_Value1: 2902886095558155385
@@ -2088,7 +2088,7 @@ MonoBehaviour:
     - rid: 3000445268483375457
       type: {class: SetValueNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -666.17596, y: 89.44685}
+        Position: {x: -613.8167, y: 73.086296}
         ID:
           m_Value0: 2997510189759651521
           m_Value1: 442644432790157412
@@ -2108,7 +2108,7 @@ MonoBehaviour:
     - rid: 3000445268483375458
       type: {class: SetValueNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -917.17584, y: 89.44685}
+        Position: {x: -864.8167, y: 73.086296}
         ID:
           m_Value0: 4060317252556515499
           m_Value1: 9810256080821106366
@@ -2252,7 +2252,7 @@ MonoBehaviour:
     - rid: 3000445272113283715
       type: {class: SwitchNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 741.64813, y: -139.11134}
+        Position: {x: 741.64813, y: -262.08215}
         ID:
           m_Value0: 5773317356052360371
           m_Value1: 5385108508806147629
@@ -2312,7 +2312,7 @@ MonoBehaviour:
     - rid: 3000445293035257987
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 1129.4602, y: -48.517166}
+        Position: {x: 1278.1482, y: -152.08215}
         ID:
           m_Value0: 17982418062350414541
           m_Value1: 9919248179208934240
@@ -2328,7 +2328,7 @@ MonoBehaviour:
     - rid: 3000445293035257988
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 741.64813, y: -31.511341}
+        Position: {x: 725.14813, y: -152.08215}
         ID:
           m_Value0: 9025443709179956400
           m_Value1: 344751859196140912
@@ -2344,7 +2344,7 @@ MonoBehaviour:
     - rid: 3000445293035257989
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 231.15118, y: -80.099365}
+        Position: {x: 188.64813, y: -152.08215}
         ID:
           m_Value0: 712921362877598198
           m_Value1: 8189111042841131501
@@ -2488,7 +2488,7 @@ MonoBehaviour:
     - rid: 3000445293035258190
       type: {class: RunInParallelNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -538.8035, y: -245.4825}
+        Position: {x: -547.60693, y: -262.08215}
         ID:
           m_Value0: 12506027238511049706
           m_Value1: 5287741058068984272
@@ -2507,7 +2507,7 @@ MonoBehaviour:
     - rid: 3000445293035258191
       type: {class: AbortNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -343.33585, y: -117.81441}
+        Position: {x: -296.60693, y: -152.08215}
         ID:
           m_Value0: 8838411960273249653
           m_Value1: 1527361631873595417
@@ -2531,7 +2531,7 @@ MonoBehaviour:
     - rid: 3000445293035258192
       type: {class: SequenceNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: -343.33585, y: -7.8143578}
+        Position: {x: -296.60693, y: -42.082153}
         ID:
           m_Value0: 1952140331960513383
           m_Value1: 1787608287026190087
@@ -3031,7 +3031,7 @@ MonoBehaviour:
     - rid: 3000445293035258638
       type: {class: SetValueNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 1503.6877, y: 234.78873}
+        Position: {x: 1429.1482, y: 175.91785}
         ID:
           m_Value0: 6304839528265168748
           m_Value1: 2932610184583048335
@@ -3051,7 +3051,7 @@ MonoBehaviour:
     - rid: 3000445293035258639
       type: {class: AbortNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 1215.6875, y: 234.78873}
+        Position: {x: 1152.6482, y: 175.91785}
         ID:
           m_Value0: 14600379537578045960
           m_Value1: 10380499643469669693
@@ -3075,7 +3075,7 @@ MonoBehaviour:
     - rid: 3000445293035258640
       type: {class: ActionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 1215.6875, y: 344.78864}
+        Position: {x: 1152.6481, y: 288.00507}
         ID:
           m_Value0: 16334139733910864612
           m_Value1: 14798821797575554202
@@ -3101,7 +3101,7 @@ MonoBehaviour:
     - rid: 3000445293035258641
       type: {class: CompositeNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 1183.5079, y: 37.574562}
+        Position: {x: 1278.1482, y: -42.082153}
         ID:
           m_Value0: 11420862366042566974
           m_Value1: 6555566083016080731
@@ -3462,7 +3462,7 @@ MonoBehaviour:
     - rid: 3000445293151387951
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 109.23468, y: 233.70282}
+        Position: {x: 55.648132, y: 288.00507}
         ID:
           m_Value0: 15880606034790232909
           m_Value1: 13263951226836755304
@@ -3478,7 +3478,7 @@ MonoBehaviour:
     - rid: 3000445293151387952
       type: {class: FloatingPortNodeModel, ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
       data:
-        Position: {x: 300.8345, y: 233.70282}
+        Position: {x: 315.64816, y: 288.00507}
         ID:
           m_Value0: 3447446537891117791
           m_Value1: 16478467249838592104
@@ -3494,7 +3494,7 @@ MonoBehaviour:
     - rid: 3000445293151387953
       type: {class: BranchingConditionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 205.03468, y: 130.90282}
+        Position: {x: 188.64813, y: 175.91785}
         ID:
           m_Value0: 7694019281708524266
           m_Value1: 4287448944051300159
@@ -3658,7 +3658,7 @@ MonoBehaviour:
     - rid: 3000445293151388207
       type: {class: SetValueNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 45.10527, y: 330.70563}
+        Position: {x: 55.648132, y: 378.0055}
         ID:
           m_Value0: 2987473635033469390
           m_Value1: 16274604464369186944
@@ -3697,7 +3697,7 @@ MonoBehaviour:
     - rid: 3000445293151388288
       type: {class: SetValueNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: 340.4062, y: 329.28613}
+        Position: {x: 315.64816, y: 378.0055}
         ID:
           m_Value0: 6632724392032129681
           m_Value1: 11603925269963952436
@@ -3823,23 +3823,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.RuntimeBlackboardAsset
   VersionTimestamp: 639293387756479052
   AssetID:
-    m_Hash128:
-      'bytes[0]': 165
-      'bytes[1]': 54
-      'bytes[2]': 114
-      'bytes[3]': 217
-      'bytes[4]': 247
-      'bytes[5]': 179
-      'bytes[6]': 111
-      'bytes[7]': 180
-      'bytes[8]': 249
-      'bytes[9]': 180
-      'bytes[10]': 206
-      'bytes[11]': 5
-      'bytes[12]': 219
-      'bytes[13]': 55
-      'bytes[14]': 97
-      'bytes[15]': 17
     m_Value0: 13001808526328346277
     m_Value1: 1252343585220506873
   m_Blackboard:
@@ -3859,23 +3842,6 @@ MonoBehaviour:
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Hash128:
-            'bytes[0]': 1
-            'bytes[1]': 0
-            'bytes[2]': 0
-            'bytes[3]': 0
-            'bytes[4]': 0
-            'bytes[5]': 0
-            'bytes[6]': 0
-            'bytes[7]': 0
-            'bytes[8]': 0
-            'bytes[9]': 0
-            'bytes[10]': 0
-            'bytes[11]': 0
-            'bytes[12]': 0
-            'bytes[13]': 0
-            'bytes[14]': 0
-            'bytes[15]': 0
           m_Value0: 1
           m_Value1: 0
         Name: Self
@@ -3884,23 +3850,6 @@ MonoBehaviour:
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Hash128:
-            'bytes[0]': 179
-            'bytes[1]': 80
-            'bytes[2]': 48
-            'bytes[3]': 109
-            'bytes[4]': 52
-            'bytes[5]': 205
-            'bytes[6]': 23
-            'bytes[7]': 60
-            'bytes[8]': 109
-            'bytes[9]': 14
-            'bytes[10]': 148
-            'bytes[11]': 218
-            'bytes[12]': 250
-            'bytes[13]': 233
-            'bytes[14]': 231
-            'bytes[15]': 142
           m_Value0: 4330155191793897651
           m_Value1: 10297456336624160365
         Name: Target
@@ -3909,23 +3858,6 @@ MonoBehaviour:
       type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Hash128:
-            'bytes[0]': 122
-            'bytes[1]': 38
-            'bytes[2]': 236
-            'bytes[3]': 238
-            'bytes[4]': 177
-            'bytes[5]': 103
-            'bytes[6]': 99
-            'bytes[7]': 201
-            'bytes[8]': 161
-            'bytes[9]': 46
-            'bytes[10]': 245
-            'bytes[11]': 8
-            'bytes[12]': 149
-            'bytes[13]': 38
-            'bytes[14]': 16
-            'bytes[15]': 53
           m_Value0: 14511556438233196154
           m_Value1: 3823598505179819681
         Name: TargetDetected
@@ -3934,23 +3866,6 @@ MonoBehaviour:
       type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
-          m_Hash128:
-            'bytes[0]': 59
-            'bytes[1]': 166
-            'bytes[2]': 168
-            'bytes[3]': 55
-            'bytes[4]': 51
-            'bytes[5]': 232
-            'bytes[6]': 30
-            'bytes[7]': 10
-            'bytes[8]': 108
-            'bytes[9]': 115
-            'bytes[10]': 103
-            'bytes[11]': 141
-            'bytes[12]': 55
-            'bytes[13]': 177
-            'bytes[14]': 201
-            'bytes[15]': 11
           m_Value0: 729275496355374651
           m_Value1: 849404856889733996
         Name: Waypoints Seeker

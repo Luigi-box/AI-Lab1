@@ -431,6 +431,37 @@ MonoBehaviour:
     m_Bits: 0
   canPush: 0
   strength: 1.1
+--- !u!1 &469500984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469500985}
+  m_Layer: 0
+  m_Name: RunTo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469500985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469500984}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 982208901}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &529976314
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +749,7 @@ MonoBehaviour:
   m_BlackboardVariableOverridesList:
   - rid: 3000445228558843960
   - rid: 3000445228558843961
+  - rid: 5246273678544732231
   m_OriginalGraph: {fileID: -1188988209933432429, guid: a53672d9f7b36fb4f9b4ce05db376111, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -740,6 +772,14 @@ MonoBehaviour:
           m_Value1: 10297456336624160365
         Name: Target
         m_Value: {fileID: 445470068}
+    - rid: 5246273678544732231
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 13023187733677836022
+          m_Value1: 2895475477881820768
+        Name: RunToPosition
+        m_Value: {fileID: 469500984}
 --- !u!114 &982208895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,7 +928,8 @@ Transform:
   m_LocalPosition: {x: -11.32, y: 15.81, z: -14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 469500985}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020052303
